@@ -1,115 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhamini Devarapu | AI & ML Portfolio</title>
+    <title>Bhamini | AI & ML Engineer</title>
 
-    <!-- CSS File -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- Navigation -->
+    <nav>
 
-    <header>
-        <nav class="navbar">
+        <div class="logo">
+            <span>B</span>hamini
+        </div>
 
-            <h2 class="logo">Bhamini Portfolio</h2>
+        <ul id="menu">
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certificates</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <li><a href="#home">Home</a></li>
 
-        </nav>
-    </header>
+            <li><a href="#about">About</a></li>
 
-    <!-- ================= HOME ================= -->
+            <li><a href="#skills">Skills</a></li>
 
-    <section id="home">
+            <li><a href="#projects">Projects</a></li>
 
-        <div class="box">
+            <li><a href="#certificates">Certificates</a></li>
 
-            <img src="C:\Users\Bhamini D\Downloads\WhatsApp Image 2026-06-29 at 2.52.39 PM.jpeg" alt="C:\Users\Bhamini D\Downloads\WhatsApp Image 2026-06-29 at 2.52.39 PM.jpeg" class="profile-image">
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <h3>Hello, I'm</h3>
 
             <h1>Bhamini Devarapu</h1>
 
-            <h3>Aspiring AI & Machine Learning Engineer</h3>
+            <h2>
+                <span id="typing"></span>
+            </h2>
 
             <p>
-                Passionate about building intelligent applications using
-                Python, Machine Learning and Data Analysis.
+                Passionate about Artificial Intelligence, Machine Learning,
+                Data Science and Web Development.
             </p>
 
-            <a href="assets/resume.pdf" class="btn" download>
-                Download Resume
-            </a>
+            <div class="buttons">
+
+                <a href="#" class="btn">Download Resume</a>
+
+                <a href="#contact" class="btn2">Hire Me</a>
+
+            </div>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fas fa-envelope"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img src="images/profile.png" alt="Profile">
 
         </div>
 
     </section>
 
-    <!-- ================= ABOUT ================= -->
+    <!-- About -->
 
-    <section id="about">
+    <section class="about" id="about">
 
-        <div class="box">
+        <h2 class="title">About Me</h2>
 
-            <h2>About Me</h2>
+        <div class="about-container">
 
-            <p>
+            <div class="about-image">
 
-                I'm an aspiring AI & Machine Learning Engineer passionate
-                about developing intelligent applications using Python,
-                Machine Learning, Data Science and Web Technologies.
+                <img src="images/profile.png">
 
-                I enjoy solving real-world problems through AI and continuously
-                improving my technical skills by working on practical projects.
+            </div>
 
-            </p>
+            <div class="about-content">
 
-        </div>
+                <h3>AI & Machine Learning Enthusiast</h3>
 
-    </section>
+                <p>
 
-    <!-- ================= SKILLS ================= -->
+                    I am an aspiring AI & Machine Learning Engineer passionate
+                    about solving real-world problems using Machine Learning,
+                    Python, Data Science and Artificial Intelligence.
 
-    <section id="skills">
+                    I enjoy building intelligent web applications and
+                    continuously learning new technologies.
 
-        <div class="box">
-
-            <h2>Technical Skills</h2>
-
-            <div class="skills-container">
-
-                <div class="skill-card">Python</div>
-
-                <div class="skill-card">Machine Learning</div>
-
-                <div class="skill-card">HTML</div>
-
-                <div class="skill-card">CSS</div>
-
-                <div class="skill-card">JavaScript</div>
-
-                <div class="skill-card">SQL</div>
-
-                <div class="skill-card">Git</div>
-
-                <div class="skill-card">GitHub</div>
-
-                <div class="skill-card">Streamlit</div>
-
-                <div class="skill-card">Google Colab</div>
-
-                <div class="skill-card">VS Code</div>
+                </p>
 
             </div>
 
@@ -117,35 +133,96 @@
 
     </section>
 
-    <!-- ================= CERTIFICATIONS ================= -->
+    <!-- Skills -->
 
-    <section id="certifications">
+    <section class="skills" id="skills">
 
-        <div class="box">
+        <h2 class="title">Technical Skills</h2>
 
-            <h2>Certifications</h2>
+        <div class="skill-grid">
 
-            <div class="certificate-container">
+            <div class="card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
 
-                <div class="certificate-card">
-                    <h3>Deloitte Data Analytics Job Simulation</h3>
-                </div>
+            <div class="card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
 
-                <div class="certificate-card">
-                    <h3>InternPe AI & ML Internship</h3>
-                </div>
+            <div class="card">
+                <i class="fas fa-brain"></i>
+                <h3>Machine Learning</h3>
+            </div>
 
-                <div class="certificate-card">
-                    <h3>Google Colab Programming</h3>
-                </div>
+            <div class="card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Science</h3>
+            </div>
 
-                <div class="certificate-card">
-                    <h3>Python Programming</h3>
-                </div>
+            <div class="card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
 
-                <div class="certificate-card">
-                    <h3>Additional Professional Certifications</h3>
-                </div>
+            <div class="card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects" id="projects">
+
+        <h2 class="title">Projects</h2>
+
+        <div class="project-box">
+
+            <div class="project">
+
+                <h3>🚗 Car Price Prediction</h3>
+
+                <p>
+                    Machine Learning project that predicts car prices using
+                    regression algorithms.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>🩺 Diabetes Prediction</h3>
+
+                <p>
+                    ML application that predicts diabetes based on health
+                    parameters.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>🏏 IPL Winning Team Prediction</h3>
+
+                <p>
+                    Predicts winning probability of IPL teams using Machine
+                    Learning and Streamlit.
+                </p>
 
             </div>
 
@@ -153,165 +230,60 @@
 
     </section>
 
-    <!-- ================= PROJECTS ================= -->
+    <!-- Certificates -->
 
-    <section id="projects">
+    <section id="certificates">
 
-        <div class="box">
+        <h2 class="title">Certificates</h2>
 
-            <h2>Projects</h2>
+        <div class="certificate-box">
 
-            <div class="projects-container">
+            <div class="certificate">
+                Deloitte Data Analytics
+            </div>
 
-                <div class="project-card">
+            <div class="certificate">
+                AI & ML Internship
+            </div>
 
-                    <img src="images/car.png" alt="Car Price Prediction">
-
-                    <h3>Car Price Prediction</h3>
-
-                    <p>
-                        Predicts car prices using Machine Learning algorithms.
-                    </p>
-
-                    <p><strong>Technologies:</strong> Python, Streamlit, Scikit-Learn</p>
-
-                    <a href="#">GitHub</a>
-
-                    <a href="#">Live Demo</a>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="images/diabetes.png" alt="Diabetes Prediction">
-
-                    <h3>Diabetes Prediction</h3>
-
-                    <p>
-                        Predicts diabetes based on medical parameters.
-                    </p>
-
-                    <p><strong>Technologies:</strong> Python, Machine Learning</p>
-
-                    <a href="#">GitHub</a>
-
-                    <a href="#">Live Demo</a>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="images/cancer.png" alt="Breast Cancer Prediction">
-
-                    <h3>Breast Cancer Prediction</h3>
-
-                    <p>
-                        Classification model for breast cancer prediction.
-                    </p>
-
-                    <p><strong>Technologies:</strong> Python, Scikit-Learn</p>
-
-                    <a href="#">GitHub</a>
-
-                    <a href="#">Live Demo</a>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="images/ipl.png" alt="IPL Prediction">
-
-                    <h3>IPL Winning Team Prediction</h3>
-
-                    <p>
-                        Predicts winning probability during IPL matches.
-                    </p>
-
-                    <p><strong>Technologies:</strong> Python, Streamlit</p>
-
-                    <a href="#">GitHub</a>
-
-                    <a href="#">Live Demo</a>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="images/telemetry.png" alt="Telemetry">
-
-                    <h3>Telemetry Data Analysis</h3>
-
-                    <p>
-                        Data visualization and analysis using Python.
-                    </p>
-
-                    <p><strong>Technologies:</strong> Python, Pandas, Matplotlib</p>
-
-                    <a href="#">GitHub</a>
-
-                </div>
-
+            <div class="certificate">
+                Python Programming
             </div>
 
         </div>
 
     </section>
 
-    <!-- ================= EDUCATION ================= -->
+    <!-- Contact -->
 
-    <section id="education">
+    <section class="contact" id="contact">
 
-        <div class="box">
+        <h2 class="title">Contact Me</h2>
 
-            <h2>Education</h2>
+        <form>
 
-            <div class="education-card">
+            <input type="text" placeholder="Your Name">
 
-                <h3>Bachelor of Technology</h3>
+            <input type="email" placeholder="Email">
 
-                <p><strong>College:</strong> Your College Name</p>
+            <textarea rows="6" placeholder="Message"></textarea>
 
-                <p><strong>Degree:</strong> Computer Science Engineering</p>
+            <button>Send Message</button>
 
-                <p><strong>Graduation:</strong> 2026</p>
-
-                <p><strong>CGPA:</strong> 8.5 / 10 (Optional)</p>
-
-            </div>
-
-        </div>
+        </form>
 
     </section>
 
-    <!-- ================= CONTACT ================= -->
-
-    <section id="contact">
-
-        <div class="box">
-
-            <h2>Contact Me</h2>
-
-            <p>Email : yourmail@gmail.com</p>
-
-            <p>Phone : +91 XXXXXXXXXX</p>
-
-            <p>GitHub : https://github.com/yourusername</p>
-
-            <p>LinkedIn : https://linkedin.com/in/yourusername</p>
-
-        </div>
-
-    </section>
-
-    <!-- ================= FOOTER ================= -->
+    <!-- Footer -->
 
     <footer>
 
-        <p>© 2026 Bhamini Devarapu | AI & ML Portfolio</p>
+        © 2026 Bhamini Devarapu | AI & ML Portfolio
 
     </footer>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
