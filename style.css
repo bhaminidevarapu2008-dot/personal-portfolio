@@ -1,0 +1,21 @@
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+h1{
+    color:#1c4a08;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+section {
+    padding: 60px;
+}
+
+h2 {
+    color: rgb(186, 23, 23);
+}
